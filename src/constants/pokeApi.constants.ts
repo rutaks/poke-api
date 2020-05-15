@@ -3,7 +3,7 @@ dotenv.config();
 
 class EnvVars {
   MONGO_URL;
-  constructor(MONGO_URL: any) {
+  constructor(MONGO_URL?: String) {
     this.MONGO_URL = MONGO_URL;
   }
 }

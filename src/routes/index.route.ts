@@ -10,5 +10,6 @@ export default class IndexRoute {
 
   public routes() {
     this.app.route("/").get(this.pokeController.sendWelcomeMessage);
+    this.app.route("/pokemons/").get(this.pokeController.getAllPokemon);
   }
 }
