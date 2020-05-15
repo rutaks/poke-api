@@ -10,10 +10,8 @@
     "emitDecoratorMetadata": true,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "noImplicitAny": false,
-    "typeRoots": ["src/types/index.ts", "node_modules/@types"]
+    "noImplicitAny": false
   },
-  "files": ["src/custom/request.d.ts"],
   "exclude": ["node_modules"],
   "include": ["src/**/*.ts"]
 }
