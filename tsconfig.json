@@ -8,8 +8,12 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "noImplicitAny": false
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "typeRoots": ["src/types/index.ts", "node_modules/@types"]
   },
+  "files": ["src/custom/request.d.ts"],
   "exclude": ["node_modules"],
   "include": ["src/**/*.ts"]
 }
